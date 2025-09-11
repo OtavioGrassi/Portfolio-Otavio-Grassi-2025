@@ -5,7 +5,7 @@ import Avatar from "../../../../assets/images/avatar.jpg"
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
-import CV from "../../../../assets/pdfs/Open.pdf"
+import CV from "../../../../assets/pdfs/Curriculo_Otavio_Grassi_2025.pdf"
 
 const HeroSection: React.FC = () => {
 
@@ -38,7 +38,7 @@ const HeroSection: React.FC = () => {
         // Create a link element
         const link = document.createElement('a');
         link.href = CV
-        link.download = 'example.pdf'; // Set the download attribute to specify the file name
+        link.download = 'Curriculo_Otavio_Grassi_2025.pdf'; // Set the download attribute to specify the file name
         // Append the link to the body
         document.body.appendChild(link);
         // Trigger the click event
@@ -73,16 +73,16 @@ const HeroSection: React.FC = () => {
                         </Grid>
                         <Grid item xs={12} md={7}>
                             <Typography color="primary.contrastText" variant="h1" pb={2} textAlign="center">
-                                Adriana Saty
+                                Otávio Grassi
                             </Typography>
-                            <Typewriter text="I'm a Software Engineer" delay={120} variant="h2" color="primary.contrastText" />
+                            <Typewriter text="Eu sou um Desenvolvedor" delay={120} variant="h2" color="primary.contrastText" />
                             <Box mt={3}>
                                 <Grid container spacing={3} display="flex" justifyContent="center">
                                     <Grid item xs={10} md={4}>
                                         <StyledButton onClick={() => handleDownload()}>
                                             <DownloadIcon />
                                             <Typography>
-                                                Download CV
+                                                Baixar CV
                                             </Typography>
                                         </StyledButton>
                                     </Grid>
@@ -90,7 +90,7 @@ const HeroSection: React.FC = () => {
                                         <StyledButton onClick={() => handleEmail()}>
                                             <EmailIcon />
                                             <Typography>
-                                                Contact me
+                                                Contato
                                             </Typography>
                                         </StyledButton>
                                     </Grid>

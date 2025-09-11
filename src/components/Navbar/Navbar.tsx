@@ -78,25 +78,25 @@ export default function Navbar() {
                         onClose={handleClose}
                     >
                         <MenuItem onClick={() => handleSmoothScroll("about")}>
-                            <StyledNavLink>About</StyledNavLink>
+                            <StyledNavLink>Sobre</StyledNavLink>
                         </MenuItem>
                         <MenuItem onClick={() => handleSmoothScroll("skills")}>
-                            <StyledNavLink>Skills</StyledNavLink>
+                            <StyledNavLink>Habilidades</StyledNavLink>
                         </MenuItem>
                         <MenuItem onClick={() => handleSmoothScroll("projects")}>
-                            <StyledNavLink>Projects</StyledNavLink>
+                            <StyledNavLink>Projetos</StyledNavLink>
                         </MenuItem>
                     </Menu>
                 </StyledMobileToolbar>
                 <StyledDesktopToolbar variant="regular">
                     <MenuItem onClick={() => handleSmoothScroll("about")}>
-                        <StyledNavLink>About</StyledNavLink>
+                        <StyledNavLink>Sobre</StyledNavLink>
                     </MenuItem>
                     <MenuItem onClick={() => handleSmoothScroll("skills")}>
-                        <StyledNavLink>Skills</StyledNavLink>
+                        <StyledNavLink>Habilidades</StyledNavLink>
                     </MenuItem>
                     <MenuItem onClick={() => handleSmoothScroll("projects")}>
-                        <StyledNavLink>Projects</StyledNavLink>
+                        <StyledNavLink>Projetos</StyledNavLink>
                     </MenuItem>
                 </StyledDesktopToolbar>
             </AppBar>
