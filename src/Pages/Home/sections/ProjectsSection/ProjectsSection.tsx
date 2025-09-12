@@ -13,7 +13,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Dashboard Financeiro Binance",
             subtitle: "Set 2025 - Set 2025",
-            srcImg: "/src/assets/images/binance.png",
+            srcImg: "/public/assets/images/Binance.png",
             description: "Aplicação full stack para exibição de dados financeiros em tempo real, com integração à API pública da Binance. Conta com gráficos candlestick interativos via ApexCharts, filtros por par de moedas e período, comunicação entre front-end e back-end e atualizações dinâmicas.",
             technologies: "Tecnologias: React.js, JavaScript ES6+, CSS3, Axios, ApexCharts, Node.js, Express, REST API, JSON, CORS",
             websiteURL: "https://github.com/OtavioGrassi/Dashboard-Binance-Api-React",
@@ -22,7 +22,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "To Do List",
             subtitle: "Ago 2025 - Ago 2025",
-            srcImg: "/src/assets/images/ToDoList.png",
+            srcImg: "/public/assets/images/ToDoList.png",
             description: "Aplicação CRUD para gerenciamento de tarefas, com funcionalidades de criação, edição, busca, filtros por status e ordenação alfabética. Projeto focado em componentização, manipulação de listas, eventos e controle de estado no React.",
             technologies: "Tecnologias: React, JavaScript, HTML, CSS",
             websiteURL: "https://github.com/OtavioGrassi/To-Do-List-em-React-JS",
@@ -31,7 +31,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Landing Page E-commerce Supermercado",
             subtitle: "Jun 2025 - Jun 2025",
-            srcImg: "/src/assets/images/Supermercado.png",
+            srcImg: "/public/assets/images/Supermercado.png",
             description: "Aplicação front-end simulando um e-commerce, com funcionalidades de carrinho de compras, atualização dinâmica de itens e cálculo automático de totais. Utiliza HTML, CSS e JavaScript, com dados fornecidos por uma API REST local com JSON Server.",
             technologies: "Tecnologias: JavaScript, HTML, CSS, API Rest, JSON",
             websiteURL: "https://github.com/OtavioGrassi/Teste-Front-Tgid",
@@ -40,7 +40,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Questões Objetivas",
             subtitle: "Set 2024 - Dez 2024",
-            srcImg: "/src/assets/images/Questoes.png",
+            srcImg: "/public/assets/images/Questoes.png",
             description: "Aplicação interativa para simulação de questões de múltipla escolha, baseada em provas como ENEM e ENADE. Apresenta enunciados e alternativas de forma dinâmica, promovendo a familiarização com o formato oficial de exames.",
             technologies: "Tecnologias: JavaScript, HTML, CSS",
             websiteURL: "https://apps.univesp.br/questoes-objetivas/",
@@ -49,7 +49,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "História da Pessoa com Deficiência",
             subtitle: "Ago 2024 - Nov 2024",
-            srcImg: "/src/assets/images/Deficiencia.png",
+            srcImg: "/public/assets/images/Deficiencia.png",
             description: "Aplicação interativa em formato de linha do tempo, que apresenta a história da pessoa com deficiência desde as civilizações antigas até os dias atuais. Desenvolvida com foco em acessibilidade, navegação clara e conteúdo educativo.",
             technologies: "Tecnologias: JavaScript, HTML, CSS, JSON",
             websiteURL: "https://apps.univesp.br/historia-da-pessoa-com-deficiencia/",
@@ -58,7 +58,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Imposto de Renda",
             subtitle: "Jul 2024 - Set 2024",
-            srcImg: "/src/assets/images/Imposto.png",
+            srcImg: "/public/assets/images/Imposto.png",
             description: "Aplicação educativa desenvolvida para orientar o processo de declaração do imposto de renda. Apresenta instruções passo a passo, exemplos práticos e conteúdo visual para facilitar o entendimento de contribuintes iniciantes.",
             technologies: "Tecnologias: JavaScript, HTML, CSS, JSON",
             websiteURL: "https://apps.univesp.br/imposto-de-renda/",

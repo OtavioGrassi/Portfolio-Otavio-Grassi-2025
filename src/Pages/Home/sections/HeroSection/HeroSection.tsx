@@ -1,11 +1,11 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material"
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground"
 import Typewriter from "../../../../components/Typewriter/Typewriter"
-import Avatar from "../../../../assets/images/avatar.jpg"
+import Avatar from "/public/assets/images/avatar.png"
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
-import CV from "../../../../assets/pdfs/Curriculo_Otavio_Grassi_2025.pdf"
+import CV from "/public/assets/pdf/Curriculo_Otavio_Grassi_2025.pdf"
 
 const HeroSection: React.FC = () => {
 
@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
     };
 
     const handleEmail = () => {
-        const emailAddress = 'example@example.com';
+        const emailAddress = 'ramosgrassi@gmail.com';
         const subject = 'Subject';
         const body = 'Hello! I saw your portfolio...';
 
