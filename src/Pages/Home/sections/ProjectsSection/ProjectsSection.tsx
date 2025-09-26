@@ -11,6 +11,15 @@ const ProjectsSection: React.FC = () => {
 
     const projects = [
         {
+            title: "Login Page com Autenticação",
+            subtitle: "Set 2025 - Set 2025",
+            srcImg: "/assets/images/LoginPage.png",
+            description: "Aplicação full stack permite que o usuário faça login utilizando autenticação com JWT. O frontend se comunica com o backend para validar o login e fornecer um token JWT, que será usado para autenticação nas próximas requisições..",
+            technologies: "Tecnologias: Angular, TypeScript, SCSS, Java com Spring Security, JWT e token Bearer",
+            websiteURL: "https://login-page-frontend-otaviograssi.netlify.app/login",
+            codeURL: "https://github.com/OtavioGrassi/login-page-fullstack-frontend",
+        },
+        {
             title: "Dashboard Financeiro Binance",
             subtitle: "Set 2025 - Set 2025",
             srcImg: "/assets/images/Binance.png",
